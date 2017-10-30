@@ -10,24 +10,58 @@
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <header class="navbar navbar-light navbar-expand flex-column">
-        <a class="navbar-brand" href="#">
-            <img src="assets/bulb.png" height="50" alt="" />
-        </a>
-        <div class="navbar-nav-scroll">
-            <ul class="navbar-nav">
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <div class="navbar-brand">
+            <a href="#">
+                <img src="assets/bulb-with-text.svg" height="250" alt="" />
+            </a>
+            <br />
+            <a href="resume.pdf" target="_blank" class="resume-link">Download Resume</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link underline active" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>                        
+                    <a class="nav-link underline" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Writing</a>                        
+                    <a class="nav-link underline" href="#">Writing</a>
                 </li>
             </ul>
         </div>
-    </header>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div  class="col-md-4" style="margin-bottom: 15px">
+                <img src="assets/BFG-with-writing.png" alt="" class="project-circle" />
+            </div>
+            <div class="col-md-4" style="margin-bottom: 15px">
+                <img src="assets/VATJSS-with-writing.png" alt="" class="project-circle" />
+            </div>
+            <div class="col-md-4" style="margin-bottom: 15px">
+                <img src="assets/VenturX-with-writing.png" alt="" class="project-circle" />
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row" style="text-align:center;">
+                    <p class="col-md-4">monicaibrahim@hotmail.com</p>
+                    <p class="col-md-1"><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+                    <p class="col-md-1"><a href="https://twitter.com" target="_blank">Twitter</a></p>
+                    <p class="col-md-1"><a href="https://instagram.com" target="_blank">Instagram</a></p>
+                    <p class="col-md-5">
+                        &copy; Monica Ibrahim, 2017
+                    </p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

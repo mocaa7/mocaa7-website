@@ -7,3 +7,32 @@
 body {
     font-family: "San Francisco";
 }
+
+/* Top Nav */
+.nav-link {
+    font-size: 30px;
+}
+a.underline:hover {
+    border-bottom: 2px solid #1d518c;
+    padding-bottom: 1px;
+}
+/* TODO: fix this in a better way for the top nav */
+.black {
+    color: black !important;
+}
+a {
+    color: black;
+}
+.resume-link {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.resume-link:hover {
+    color: black;
+    text-decoration: none;
+}
+img.project-circle {
+    /* don't stretch Bootstrap's columns. */
+    max-width: 100%;
+}
