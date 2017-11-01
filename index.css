@@ -71,3 +71,6 @@ a {
 img.project-circle {
     max-width: 100%;
 }
+img.project-circle:hover {
+    opacity: 0.5;
+}
