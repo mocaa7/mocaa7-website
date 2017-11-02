@@ -1,1 +1,30 @@
-<h1>Writing</h1>
+<div id="articles" data-bind="foreach: articles">
+    <div class="article">
+        <h3 class="article-date" data-bind="text: date"></h3>
+        <a data-bind="attr: { href: href }"><h2 class="article-title" data-bind="text: title"></h2></a>
+        <p class="article-blurb" data-bind="text: blurb"></p>
+        <hr />
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        function ArticlesViewModel() {
+            this.articles = [{
+                    date: "November 1, 2017",
+                    title: "Article 1",
+                    blurb: "Lorem Ipsum 1",
+                    href: "https://www.article1.com"
+                }, {
+                    date: "October 23, 2017",
+                    title: "Article 2",
+                    blurb: "Lorem Ipsum 2",
+                    href: "https://www.article2.com"
+                }
+            ];
+        }
+
+        ko.cleanNode(document.getElementById("articles"));
+        ko.applyBindings(new ArticlesViewModel(), document.getElementById("articles"));
+    });
+</script>

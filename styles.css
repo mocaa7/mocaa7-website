@@ -89,3 +89,20 @@ img.project-circle {
 img.project-circle:hover {
     opacity: 0.5;
 }
+
+/* Writing page */
+.article .article-date {
+    color: #4A4A4A;
+    font-size: 15px;
+}
+
+.article .article-title {
+    color: #000;
+    font-family: "San Francisco Bold";
+    font-size: 35px;
+}
+
+.article .article-blurb {
+    color: #000;
+    font-size: 30px;
+}
