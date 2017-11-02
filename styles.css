@@ -44,6 +44,10 @@ i {
     font-family: "San Francisco Italic";
     font-style: normal;
 }
+.col-md-4 img {
+    /* Don't stretch Bootstrap's columns. */
+    max-width: 100%;
+}
 
 /* Header */
 nav.navbar {
@@ -95,11 +99,7 @@ nav.navbar {
 .project {
     margin-bottom: 20px;
 }
-img.project-circle {
-    /* Don't stretch Bootstrap's columns. */
-    max-width: 100%;
-}
-img.project-circle:hover {
+.project img:hover {
     opacity: 0.5;
 }
 
@@ -107,6 +107,17 @@ img.project-circle:hover {
 #about #subtitle {
     color: #1D518C;
     font-family: "San Francisco Medium";
+    font-size: 30px;
+}
+#about .intro {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#about .blurb {
+    margin-top: 50px;
+}
+#about .blurb h1 {
+    font-family: "San Francisco Bold";
     font-size: 30px;
 }
 #about h2 {
@@ -119,11 +130,11 @@ img.project-circle:hover {
     font-size: 20px;
 }
 #about .quote {
-    font-size: 1em;
+    font-size: 20px;
     padding: 25px 50px 25px 50px;
 }
 #about .subjects {
-    margin: 15px auto 15px auto;
+    margin: 15px auto 35px auto;
 }
 #about .subject {
     font-size: 20px;
