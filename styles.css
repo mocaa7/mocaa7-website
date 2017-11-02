@@ -3,6 +3,11 @@
     font-weight: 400;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+@font-face {
+    font-family: "San Francisco Semibold";
+    /* font-weight: 400; */
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
 
 html {
     position: relative;
@@ -50,6 +55,7 @@ body {
 /* Top Nav */
 .nav-link {
     font-size: 30px;
+    font-family: "San Francisco Semibold";
 }
 
 .projects {
