@@ -140,6 +140,9 @@ nav.navbar {
     font-size: 20px;
     text-align: center;
 }
+#about .final {
+    margin-bottom: 50px;
+}
 
 /* Writing page */
 .article .article-date {
