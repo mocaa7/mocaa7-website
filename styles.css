@@ -8,6 +8,11 @@
     /* font-weight: 400; */
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
+@font-face {
+    font-family: "San Francisco Bold";
+    /* font-weight: 400; */
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
 
 html {
     position: relative;
@@ -18,6 +23,10 @@ body {
     background-color: #EFF7FF;
     font-family: "San Francisco";
     margin-bottom: 40px; /* Margin bottom by footer height */
+}
+
+nav.navbar {
+   margin-bottom: 40px; 
 }
 
 .footer {
@@ -43,7 +52,7 @@ body {
 
 .title h1 {
     color: black;
-    font-weight: bold;
+    font-family: "San Francisco Bold";
     font-size: 30px;
 }
 .title h2 {
