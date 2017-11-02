@@ -4,13 +4,19 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 @font-face {
+    font-family: "San Francisco Medium";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+@font-face {
     font-family: "San Francisco Semibold";
-    /* font-weight: 400; */
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 @font-face {
+    font-family: "San Francisco Italic";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscotext-regularitalic-webfont.woff");
+}
+@font-face {
     font-family: "San Francisco Bold";
-    /* font-weight: 400; */
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
@@ -30,6 +36,13 @@ a.underline:hover {
 }
 a {
     color: black;
+}
+strong {
+    font-family: "San Francisco Bold";
+}
+i {
+    font-family: "San Francisco Italic";
+    font-style: normal;
 }
 
 /* Header */
@@ -88,6 +101,33 @@ img.project-circle {
 }
 img.project-circle:hover {
     opacity: 0.5;
+}
+
+/* About page */
+#about #subtitle {
+    color: #1D518C;
+    font-family: "San Francisco Medium";
+    font-size: 30px;
+}
+#about h2 {
+    color: #1D518C;
+    font-family: "San Francisco Bold";
+    font-size: 25px;
+    text-align: center;
+}
+#about p {
+    font-size: 20px;
+}
+#about .quote {
+    font-size: 1em;
+    padding: 25px 50px 25px 50px;
+}
+#about .subjects {
+    margin: 15px auto 15px auto;
+}
+#about .subject {
+    font-size: 20px;
+    text-align: center;
 }
 
 /* Writing page */
