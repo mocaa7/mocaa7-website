@@ -110,7 +110,7 @@ nav.navbar {
     font-size: 30px;
 }
 #about .intro {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-align: center;
 }
 #about .blurb {
@@ -134,14 +134,14 @@ nav.navbar {
     padding: 25px 50px 25px 50px;
 }
 #about .subjects {
-    margin: 15px auto 35px auto;
+    margin: 35px auto 55px auto;
 }
 #about .subject {
     font-size: 20px;
     text-align: center;
 }
 #about .final {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /* Writing page */
