@@ -1,8 +1,8 @@
 <div id="articles" data-bind="foreach: articles">
     <div class="article">
         <h3 class="article-date" data-bind="text: date"></h3>
-        <a data-bind="attr: { href: href }"><h2 class="article-title" data-bind="text: title"></h2></a>
-        <p class="article-blurb" data-bind="text: blurb"></p>
+        <h2 class="article-title" data-bind="text: title"></h2>
+        <p class="article-blurb" data-bind="html: blurb"></p>
         <hr />
     </div>
 </div>
@@ -11,15 +11,13 @@
     $(function() {
         function ArticlesViewModel() {
             this.articles = [{
-                    date: "November 1, 2017",
-                    title: "Article 1",
-                    blurb: "Lorem Ipsum 1",
-                    href: "https://www.article1.com"
+                    date: "November 6th, 2017",
+                    title: "My Storyboards",
+                    blurb: "My storyboards are an ongoing process. I love making them. It was a hidden hobby and talent that I had never discovered until starting the UX course I took.<br/><br/>Check them out on <a href=\"https://medium.com/@monicaibrahim/storyboards-5a2581cab0f6\" target=\"_blank\">this medium post</a>."
                 }, {
-                    date: "October 23, 2017",
-                    title: "Article 2",
-                    blurb: "Lorem Ipsum 2",
-                    href: "https://www.article2.com"
+                    date: "September 18th, 2017",
+                    title: "UX Spotlight",
+                    blurb: "I had a chance to share my experiences and thoughts on UX design and RED Academy (the institution where I studied UX design).<br/><br/>Check it out <a href=\"https://redacademy.com/ux-student-spotlight-brian-monica-and-yayin/\" target=\"_blank\">on the RED Academy site</a>."
                 }
             ];
         }

@@ -147,16 +147,23 @@ nav.navbar {
 /* Writing page */
 .article .article-date {
     color: #4A4A4A;
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 .article .article-title {
     color: #000;
     font-family: "San Francisco Bold";
-    font-size: 35px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .article .article-blurb {
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
+    padding-left: 2em;
+}
+
+.article .article-blurb a {
+    color: #007bff;
 }
