@@ -145,6 +145,10 @@ nav.navbar {
 }
 
 /* Writing page */
+.article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .article .article-date {
     color: #4A4A4A;
     font-size: 20px;
@@ -168,6 +172,7 @@ nav.navbar {
 }
 .article .article-img {
     display: block;
-    margin: 0 auto 60px auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 80%;
 }
