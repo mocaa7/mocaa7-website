@@ -176,3 +176,7 @@ nav.navbar {
     margin-right: auto;
     max-width: 80%;
 }
+.article hr {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
