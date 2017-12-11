@@ -92,16 +92,6 @@ nav.navbar {
 }
 
 /* Projects page */
-/* .projects {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.project {
-    margin-bottom: 20px;
-}
-.project img:hover {
-    opacity: 0.5;
-} */
 .breadcrumb {
     background-color: transparent;
 }
@@ -109,27 +99,98 @@ nav.navbar {
     content: ">";
 }
 
-.row.project-overview {
+.carousel-item.project-overview {
     align-items: center;
-    justify-content: space-around;
-}
-.row.venturx2 {
-    background-color:#003d66;
-    color: #fff;
-    font-weight: 25px;
+    display: flex;
     justify-content: center;
-    min-height: 539px;
-}
-.row.venturx2 p {
-    max-width: 659px;
-}
-.row.venturx2 p:last-child {
-    color: #4a90e2;
+    margin-bottom: 20px;
 }
 
-.row.venturx2 p:last-child a {
+/* Make the carousel navigation icons black. */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.project-overview img {
+    min-width: 250px;
+    width: 40%;
+}
+
+/* Styles for individual paragraphs in the various case studies. */
+
+.project .row {
+    padding: 30px 15px;
+    font-weight: 25px;
+    justify-content: center;
+}
+.project .row .content {
+    max-width: 659px;
+}
+.project .row .content {
+    text-align: center;
+}
+.project .row .content .left {
+    text-align: left;
+}
+.project .row .content .center {
+    text-align: center;
+}
+
+.venturx2 {
+    background-color:#003d66;
+    color: #fff;
+}
+.venturx2 .content p:first-child {
+    opacity: 0.6;
+}
+.venturx2 p:last-child {
+    color: #4a90e2;
+}
+.venturx2 p:last-child a {
     color: #4a90e2;
     text-decoration: underline;
+}
+
+.venturx3 {
+    background-color: #fff;
+    color: #000;
+}
+.venturx3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.venturx4 {
+    background-color: #D3DAE0;
+    color: #000;
+}
+.venturx4 .content h1 {
+    font-family: "San Francisco Bold";
+}
+.venturx4 .content h2 {
+    color: #1D518C;
+    font-family: "San Francisco Semibold";
+    margin-top: 20px;
+}
+.venturx4 .content h3 {
+    color: #000;
+    font-family: "San Francisco Bold";
+}
+.venturx4 a {
+    text-decoration: underline;
+}
+.venturx4 .quote {
+    color: #4A4A4A;
+    font-family: "San Francisco Italic";
+}
+.venturx4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 /* About page */
 #about #subtitle {
