@@ -100,7 +100,8 @@ nav.navbar {
     content: ">";
 }
 
-.carousel-item.project-overview {
+/* Center the elements for each project. */
+#project .carousel-item.project-overview.active, #project .carousel-item.project-overview.carousel-item-next {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -120,28 +121,31 @@ nav.navbar {
 .carousel-control-next {
     justify-content: flex-end;
 }
-.project-overview img {
-    margin: 0 10px;
+.project-overview>img, .project-overview>a {
+    margin: 0 1%;
     max-width: 40%;
+}
+.project-overview>a>img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Styles for individual paragraphs in the various case studies. */
 
-.project .row {
+#project .row {
     padding: 30px 15px;
     font-weight: 25px;
     justify-content: center;
 }
-.project .row .content {
+#project .row .content {
+    font-size: 20px;
     max-width: 659px;
-}
-.project .row .content {
     text-align: center;
 }
-.project .row .content .left {
+#project .row .content .left {
     text-align: left;
 }
-.project .row .content .center {
+#project .row .content .center {
     text-align: center;
 }
 
@@ -154,6 +158,7 @@ nav.navbar {
 }
 .venturx2 p:last-child {
     color: #4a90e2;
+    font-size: 35px;
 }
 .venturx2 p:last-child a {
     color: #4a90e2;
