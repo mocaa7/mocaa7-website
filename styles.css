@@ -29,6 +29,7 @@ body {
     background-color: #EFF7FF;
     font-family: "San Francisco";
     margin-bottom: 40px; /* Margin bottom by footer height */
+    min-width: 300px;
 }
 a.underline:hover {
     border-bottom: 2px solid #1d518c;
@@ -113,9 +114,15 @@ nav.navbar {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+.carousel-control-next {
+    justify-content: flex-end;
+}
 .project-overview img {
-    min-width: 250px;
-    width: 40%;
+    margin: 0 10px;
+    max-width: 40%;
 }
 
 /* Styles for individual paragraphs in the various case studies. */

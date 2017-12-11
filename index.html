@@ -25,13 +25,13 @@
         <div class="navbar-collapse collapse" id="collapsingNavbar">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link underline active" href="#" data-href="projects.html">PROJECTS</a>
+                    <a class="nav-link underline active" href="#" data-href-navigation="projects.html">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#" data-href="about.html">ABOUT</a>
+                    <a class="nav-link underline" href="#" data-href-navigation="about.html">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link underline" href="#" data-href="writing.html">WRITING</a>
+                    <a class="nav-link underline" href="#" data-href-navigation="writing.html">WRITING</a>
                 </li>
             </ul>
         </div>
@@ -59,19 +59,19 @@
     <script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.4.2.js"></script>
     <script type="text/javascript">
         $(function() {
-            // Enable navigation based on the data-href attribute.
-            $("[data-href]").click(function() {
-                $("#body").load($(this).data("href"));
+            // Enable navigation based on the data-href-navigation attribute.
+            $("[data-href-navigation]").click(function() {
+                $("#body").load($(this).data("href-navigation"));
                 
                 // Make that link the only active one.
-                $("[data-href]").each(function() {
+                $("[data-href-navigation]").each(function() {
                     $(this).removeClass("active");
                 })
                 $(this).addClass("active");
             });
 
             // Default to navigating to the first nav item.
-            $("[data-href]")[0].click();
+            $("[data-href-navigation]")[0].click();
         });
     </script>
 </body>
