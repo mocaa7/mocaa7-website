@@ -92,7 +92,7 @@ nav.navbar {
 }
 
 /* Projects page */
-.projects {
+/* .projects {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -101,8 +101,36 @@ nav.navbar {
 }
 .project img:hover {
     opacity: 0.5;
+} */
+.breadcrumb {
+    background-color: transparent;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
 }
 
+.row.project-overview {
+    align-items: center;
+    justify-content: space-around;
+}
+.row.venturx2 {
+    background-color:#003d66;
+    color: #fff;
+    font-weight: 25px;
+    justify-content: center;
+    min-height: 539px;
+}
+.row.venturx2 p {
+    max-width: 659px;
+}
+.row.venturx2 p:last-child {
+    color: #4a90e2;
+}
+
+.row.venturx2 p:last-child a {
+    color: #4a90e2;
+    text-decoration: underline;
+}
 /* About page */
 #about #subtitle {
     color: #1D518C;
