@@ -145,8 +145,39 @@ nav.navbar {
 #project .row .content .left {
     text-align: left;
 }
+#project .row .content .right {
+    text-align: right;
+}
 #project .row .content .center {
     text-align: center;
+}
+#project .row .content .quote {
+    color: #4A4A4A;
+    font-family: "San Francisco Italic";
+}
+#project .row .content h1 {
+    font-family: "San Francisco Bold";
+}
+#project .row .content h2 {
+    color: #1D518C;
+    font-family: "San Francisco Semibold";
+    margin-top: 20px;
+}
+#project .row .content h3 {
+    color: #000;
+    font-family: "San Francisco Bold";
+}
+#project .row .content .row.heading {
+    padding-bottom: 0;
+}
+#project .row .content .row.heading + .row {
+    padding-top: 0;
+}
+#project .row .content .col-md-6 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
 .venturx2 {
@@ -179,24 +210,8 @@ nav.navbar {
     background-color: #D3DAE0;
     color: #000;
 }
-.venturx4 .content h1 {
-    font-family: "San Francisco Bold";
-}
-.venturx4 .content h2 {
-    color: #1D518C;
-    font-family: "San Francisco Semibold";
-    margin-top: 20px;
-}
-.venturx4 .content h3 {
-    color: #000;
-    font-family: "San Francisco Bold";
-}
 .venturx4 a {
     text-decoration: underline;
-}
-.venturx4 .quote {
-    color: #4A4A4A;
-    font-family: "San Francisco Italic";
 }
 .venturx4 img {
     display: block;
@@ -204,6 +219,43 @@ nav.navbar {
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+.venturx5 {
+    background-color: #fff;
+}
+
+.venturx6 {
+    background-color: #d7dee4;
+}
+
+.venturx7 {
+    background-color: #fff;
+}
+
+.venturx8 {
+    background-color: #E1E8EE;
+}
+
+.venturx9 {
+    background-color: #fff;
+}
+
+.venturx10 {
+    background-color: #E1E8EE;
+}
+
+.venturx11 {
+    background-color: #fff;
+}
+
+.venturx12 {
+    background-color: #E1E8EE;
+}
+
+.venturx13 {
+    background-color: #fff;
+}
+
 /* About page */
 #about #subtitle {
     color: #1D518C;
