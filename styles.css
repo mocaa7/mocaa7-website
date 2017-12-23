@@ -100,6 +100,14 @@ nav.navbar {
     content: ">";
 }
 
+/* On desktop screens */
+@media (min-width: 1500px) {
+    /* Give the carousel a common height so elements below it don't keep popping up and down */
+    #projectSelectionCarousel {
+        height: 463px;
+    }
+}
+
 /* Center the elements for each project. */
 #project .carousel-item.project-overview.active, #project .carousel-item.project-overview.carousel-item-next {
     align-items: center;
@@ -179,17 +187,25 @@ nav.navbar {
     margin-right: auto;
     max-width: 100%;
 }
+#project .row .content .semi-transparent {
+    opacity: 0.6;
+}
+#project .row .content .indent {
+    margin-left: 20%;
+}
+#project .row .content img {
+    max-width: 100%;
+}
+
+/* VenturX */
 
 .venturx2 {
     background-color:#003d66;
     color: #fff;
 }
-.venturx2 .content p:first-child {
-    opacity: 0.6;
-}
 .venturx2 p:last-child {
     color: #4a90e2;
-    font-size: 35px;
+    font-size: 30px;
 }
 .venturx2 p:last-child a {
     color: #4a90e2;
@@ -207,7 +223,7 @@ nav.navbar {
 }
 
 .venturx4 {
-    background-color: #D3DAE0;
+    background-color: #d3dae0;
     color: #000;
 }
 .venturx4 a {
@@ -220,7 +236,7 @@ nav.navbar {
     margin-bottom: 20px;
 }
 
-.venturx5 {
+.venturx5, .venturx7, .venturx9, .venturx11, .venturx13 {
     background-color: #fff;
 }
 
@@ -228,32 +244,39 @@ nav.navbar {
     background-color: #d7dee4;
 }
 
-.venturx7 {
-    background-color: #fff;
+.venturx8, .venturx10, .venturx12 {
+    background-color: #e1e8ee;
 }
 
-.venturx8 {
-    background-color: #E1E8EE;
+/* VATJSS */
+
+.vatjss2 {
+    background-color: #913029;
+    color: #fff;
+}
+.vatjss2 p:last-child {
+    color: #a6cfff;
+}
+.vatjss2 p:last-child a {
+    color: #a6cfff;
+    text-decoration: underline;
+}
+.vatjss4, .vatjss6 {
+    background-color: #d8dfe5;
+}
+.vatjss8, .vatjss10 {
+    background-color: #e1e8ee;
 }
 
-.venturx9 {
-    background-color: #fff;
-}
+/* Big Fit Girl */
 
-.venturx10 {
-    background-color: #E1E8EE;
+.bfg2 {
+    background-color: #000;
+    color: #fff;
 }
-
-.venturx11 {
-    background-color: #fff;
-}
-
-.venturx12 {
-    background-color: #E1E8EE;
-}
-
-.venturx13 {
-    background-color: #fff;
+.bfg2 a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* About page */
