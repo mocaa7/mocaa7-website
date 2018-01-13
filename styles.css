@@ -199,6 +199,13 @@ nav.navbar {
 #project .row .content .underline {
     text-decoration: underline;
 }
+#project .row .content .vertical-middle {
+    display: flex;
+    vertical-align: middle;
+}
+#project .row .content .no-padding {
+    padding: 0;
+}
 
 /* VenturX */
 
