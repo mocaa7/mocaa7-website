@@ -109,7 +109,7 @@ nav.navbar {
 }
 
 /* Center the elements for each project. */
-#project .carousel-item.project-overview.active, #project .carousel-item.project-overview.carousel-item-next {
+#project .carousel-item.project-overview.active, #project .carousel-item.project-overview.carousel-item-next, #project .carousel-item.project-overview.carousel-item-prev {
     align-items: center;
     display: flex;
     justify-content: center;
