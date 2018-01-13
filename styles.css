@@ -169,7 +169,10 @@ nav.navbar {
 #project .row .content h2 {
     color: #1D518C;
     font-family: "San Francisco Semibold";
-    margin-top: 20px;
+    margin-top: 40px;
+}
+#project .row .content > h2:first-child {
+    margin-top: 0;
 }
 #project .row .content h3 {
     color: #000;
