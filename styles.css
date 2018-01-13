@@ -31,7 +31,7 @@ body {
     margin-bottom: 40px; /* Margin bottom by footer height */
     min-width: 300px;
 }
-a.underline:hover {
+a.menu-underline:hover {
     border-bottom: 2px solid #1d518c;
     padding-bottom: 1px;
 }
@@ -195,6 +195,9 @@ nav.navbar {
 }
 #project .row .content img {
     max-width: 100%;
+}
+#project .row .content .underline {
+    text-decoration: underline;
 }
 
 /* VenturX */
