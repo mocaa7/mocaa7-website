@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="68px" viewBox="0 0 69 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="4.19031912 26.7000341 7.81612945 12.1294809 14.8329871 12.1294809"></polygon>
+        <filter x="-145.6%" y="-106.4%" width="391.3%" height="312.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.97254902   0 0 0 0 0.411764706   0 0 0 0 0.411764706  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="10.6941718 0.219594799 7.06836144 14.7901479 0.0515038071 14.7901479"></polygon>
+        <filter x="-225.5%" y="-164.7%" width="551.0%" height="429.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.88627451   0 0 0 0 0.0901960784   0 0 0 0 0.51372549  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboarding-3" transform="translate(-153.000000, -299.000000)">
+            <g id="challenge" transform="translate(129.000000, 275.000000)">
+                <g id="Group" transform="translate(26.000000, 25.000000)">
+                    <g id="trophy" stroke="#D8D8D8">
+                        <polygon id="Triangle-3" fill="#D8D8D8" points="33 53 48 66 18 66"></polygon>
+                        <polygon id="Triangle-4" stroke-width="4" transform="translate(52.484432, 29.265928) scale(-1, 1) translate(-52.484432, -29.265928) " points="40.8858444 13.0426437 57.7507415 13.0426437 64.0830187 45.4892117 47.3722781 36.7353212"></polygon>
+                        <polygon id="Triangle-4" stroke-width="4" points="0.885844361 13.0426437 17.7507415 13.0426437 24.0830187 45.4892117 7.37227811 36.7353212"></polygon>
+                        <polygon id="Triangle-2" fill="#D8D8D8" points="55.1009975 0.54866276 46.404157 43.7917542 33.1480869 53.8681984 18.8148382 43.7917542 11.1951762 0.54866276"></polygon>
+                    </g>
+                    <g id="lightning" transform="translate(25.000000, 11.000000)">
+                        <g id="Triangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#F86969" stroke-width="1" fill="#F86969" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Triangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#E21783" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

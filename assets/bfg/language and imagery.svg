@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="402px" height="145px" viewBox="0 0 402 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="232.741873 20.9888072 237.949052 82.1665599 189.679406 99.4269816"></polygon>
+        <filter x="-24.9%" y="-15.3%" width="149.7%" height="130.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="334 30 391 63 277 63"></polygon>
+        <filter x="-7.9%" y="-27.3%" width="115.8%" height="154.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Big-Fit-Girl-Summary" transform="translate(-525.000000, -3848.000000)">
+            <g id="Group-9" transform="translate(514.000000, 3814.000000)">
+                <g id="Group-4">
+                    <polygon id="Triangle" fill-opacity="0.6" fill="#E21783" transform="translate(80.380315, 78.902462) rotate(220.000000) translate(-80.380315, -78.902462) " points="122.728295 26 139.760629 70.8498948 21 131.804924"></polygon>
+                    <polygon id="Triangle" fill-opacity="0.4" fill="#E21783" points="413 64.2376863 369.232536 98 249 50"></polygon>
+                    <g id="Triangle" transform="translate(213.814229, 60.207894) rotate(80.000000) translate(-213.814229, -60.207894) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="Empowered" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="23.8873074" y="79.2078944">Empowered</tspan>
+                    </text>
+                    <text id="Athlete" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="184" y="72.6294107">Athlete</tspan>
+                    </text>
+                    <text id="Limitless" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="311" y="78">Limitless</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(11.000000, 108.000000)">
+                    <polygon id="Triangle" fill="#E21783" transform="translate(58.000000, 50.458512) rotate(211.000000) translate(-58.000000, -50.458512) " points="109 22.9585123 65.8799743 77.9585123 7 61.1972038"></polygon>
+                    <polygon id="Triangle" fill-opacity="0.7" fill="#E21783" transform="translate(191.961567, 60.629411) rotate(114.000000) translate(-191.961567, -60.629411) " points="165.461567 -0.87058928 218.461567 96.3344139 186.431598 122.129411"></polygon>
+                    <g id="Triangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="Strong" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="31.1209206" y="52.6194697">Strong</tspan>
+                    </text>
+                    <text id="Important" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="148" y="62.4061525">Important</tspan>
+                    </text>
+                    <text id="Beautiful" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="299" y="59">Beautiful</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

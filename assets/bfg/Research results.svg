@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1194px" height="400px" viewBox="0 0 1194 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Research results</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-9" points="213.637348 33.8975688 106.162387 216.713396 38.4388464 182.477768"></polygon>
+        <filter x="-13.7%" y="-13.1%" width="127.4%" height="126.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-10.8%" y="-10.4%" width="121.7%" height="120.8%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-12" points="213.561154 33.8975688 106.086193 216.713396 38.3626522 182.477768"></polygon>
+        <filter x="-13.7%" y="-13.1%" width="127.4%" height="126.3%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-10.8%" y="-10.4%" width="121.7%" height="120.8%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-15" points="93.3479456 -4.55697075 100.938652 84.6242121 30.574117 109.785398"></polygon>
+        <filter x="-34.1%" y="-21.0%" width="168.2%" height="142.0%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.0%" y="-16.6%" width="154.0%" height="133.2%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-18" points="93.3479456 -4.55697075 100.938652 84.6242121 30.574117 109.785398"></polygon>
+        <filter x="-34.1%" y="-21.0%" width="168.2%" height="142.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.0%" y="-16.6%" width="154.0%" height="133.2%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-21" points="213.637348 33.8975688 106.162387 216.713396 38.4388464 182.477768"></polygon>
+        <filter x="-13.7%" y="-13.1%" width="127.4%" height="126.3%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-10.8%" y="-10.4%" width="121.7%" height="120.8%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-24" points="213.561154 33.8975688 106.086193 216.713396 38.3626522 182.477768"></polygon>
+        <filter x="-13.7%" y="-13.1%" width="127.4%" height="126.3%" filterUnits="objectBoundingBox" id="filter-25">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-10.8%" y="-10.4%" width="121.7%" height="120.8%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-27" points="93.3479456 -4.55697075 100.938652 84.6242121 30.574117 109.785398"></polygon>
+        <filter x="-34.1%" y="-21.0%" width="168.2%" height="142.0%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.0%" y="-16.6%" width="154.0%" height="133.2%" filterUnits="objectBoundingBox" id="filter-29">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-30" points="93.3479456 -4.55697075 100.938652 84.6242121 30.574117 109.785398"></polygon>
+        <filter x="-34.1%" y="-21.0%" width="168.2%" height="142.0%" filterUnits="objectBoundingBox" id="filter-31">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.0%" y="-16.6%" width="154.0%" height="133.2%" filterUnits="objectBoundingBox" id="filter-32">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.960784314   0 0 0 0 0.545098039   0 0 0 0 0.788235294  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-33" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-34">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-35" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-36">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-37" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-38">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-39" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-40">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-41" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-42">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-43" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-44">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-45" points="93.7738286 -4 101.364535 85.1811829 31 110.342369"></polygon>
+        <filter x="-17.1%" y="-10.5%" width="134.1%" height="121.0%" filterUnits="objectBoundingBox" id="filter-46">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-47" points="214.198501 34 106.723541 216.815827 39 182.580199"></polygon>
+        <filter x="-6.8%" y="-6.6%" width="113.7%" height="113.1%" filterUnits="objectBoundingBox" id="filter-48">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.968627451   0 0 0 0 0.37254902   0 0 0 0 0.721568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Research-results" transform="translate(-19.000000, 0.000000)">
+            <rect id="Rectangle-29" fill="#D8D8D8" x="23" y="0" width="208" height="73" rx="8"></rect>
+            <rect id="Rectangle-29" fill="#D8D8D8" x="259" y="0" width="208" height="73" rx="8"></rect>
+            <rect id="Rectangle-29" fill="#D8D8D8" x="496" y="0" width="208" height="73" rx="8"></rect>
+            <rect id="Rectangle-29" fill="#D8D8D8" x="731" y="0" width="208" height="73" rx="8"></rect>
+            <rect id="Rectangle-29" fill="#D8D8D8" x="967" y="0" width="208" height="73" rx="8"></rect>
+            <text id="Community" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold" fill="#000000">
+                <tspan x="60.7219238" y="46">Community</tspan>
+            </text>
+            <text id="Goals-&amp;-inspirations" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold" fill="#000000">
+                <tspan x="319.201172" y="31">Goals &amp; </tspan>
+                <tspan x="296.319092" y="61">inspirations</tspan>
+            </text>
+            <text id="Ideal-fitness-enviro" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold" fill="#000000">
+                <tspan x="530.054688" y="31">Ideal fitness </tspan>
+                <tspan x="526.978516" y="61">environment</tspan>
+            </text>
+            <text id="Motivators-to-keep-g" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold" fill="#000000">
+                <tspan x="759.505615" y="31">Motivators to </tspan>
+                <tspan x="772.316895" y="61">keep going</tspan>
+            </text>
+            <text id="Mindset-to-thrive" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold" fill="#000000">
+                <tspan x="1010.66675" y="31">Mindset to </tspan>
+                <tspan x="1038.16919" y="61">thrive</tspan>
+            </text>
+            <g id="Community" transform="translate(0.000000, 55.000000)">
+                <g id="Relatability" transform="translate(61.000000, 0.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="15" y="72">Relatability</tspan>
+                    </text>
+                </g>
+                <g id="Encouraging-confidence" transform="translate(0.000000, 6.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="Encouraging-confiden" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="30" y="141">Encouraging confidence</tspan>
+                    </text>
+                </g>
+                <g id="Honesty" transform="translate(61.000000, 153.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="24" y="71">Honesty</tspan>
+                    </text>
+                </g>
+                <g id="Non-judgemental-feedback" transform="translate(0.000000, 171.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="Non-judgemental-feed" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="46.6865234" y="129">Non-judgemental </tspan>
+                        <tspan x="37.9121094" y="153">feedback &amp; insights</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Goals-&amp;-inspirations" transform="translate(227.000000, 0.000000)">
+                <g id="Health,-strength,-endurance,-flexibiltiy" transform="translate(11.000000, 0.000000)">
+                    <g id="Triangle" transform="translate(126.038097, 125.305483) rotate(52.000000) translate(-126.038097, -125.305483) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                    </g>
+                    <text id="Health,-strength,-en" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="59.2587891" y="127">Health, strength, </tspan>
+                        <tspan x="43.2431641" y="151">endurance, flexibility</tspan>
+                    </text>
+                </g>
+                <g id="Feeling-of-comarodorie" transform="translate(0.000000, 138.000000)">
+                    <g id="Triangle" transform="translate(125.961903, 125.305483) rotate(52.000000) translate(-125.961903, -125.305483) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-12"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-12"></use>
+                    </g>
+                    <text id="Feeling-of-comarador" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="41" y="141">Feeling of comaradorie</tspan>
+                    </text>
+                </g>
+                <g id="Loving-life" transform="translate(71.000000, 283.000000)">
+                    <g id="Triangle" transform="translate(65.756384, 52.614214) rotate(70.000000) translate(-65.756384, -52.614214) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-15"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="23" y="72">Loving life</tspan>
+                    </text>
+                </g>
+                <g id="Increase-heart-rate" transform="translate(74.000000, 138.000000)">
+                    <g id="Triangle" transform="translate(65.756384, 52.614214) rotate(70.000000) translate(-65.756384, -52.614214) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-18"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-18"></use>
+                    </g>
+                    <text id="heart-rate" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="32" y="72">heart rate</tspan>
+                    </text>
+                    <g id="Up-arrow" transform="translate(21.000000, 64.000000) scale(1, -1) translate(-21.000000, -64.000000) translate(16.000000, 56.000000)" stroke="#000000" stroke-width="1.5">
+                        <path d="M5,0.491212194 L5,14.7198626" id="Line-7" stroke-linecap="square"></path>
+                        <polyline id="Path-22" points="0 9 5.02492655 16 10 9"></polyline>
+                    </g>
+                </g>
+            </g>
+            <g id="Motivators-to-keep-going" transform="translate(698.000000, 0.000000)">
+                <g id="Discovering-what-the-body-can-do" transform="translate(11.000000, 0.000000)">
+                    <g id="Triangle" transform="translate(126.038097, 125.305483) rotate(52.000000) translate(-126.038097, -125.305483) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-21"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-21"></use>
+                    </g>
+                    <text id="Discovering-what-the" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="41.1679688" y="127">Discovering what the </tspan>
+                        <tspan x="77.5107422" y="151">body can do</tspan>
+                    </text>
+                </g>
+                <g id="When-working-towards-something" transform="translate(0.000000, 138.000000)">
+                    <g id="Triangle" transform="translate(125.961903, 125.305483) rotate(52.000000) translate(-125.961903, -125.305483) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-24"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-24"></use>
+                    </g>
+                    <text id="When-working-towards" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="60.2314453" y="131">When working </tspan>
+                        <tspan x="40.3632812" y="155">towards something</tspan>
+                    </text>
+                </g>
+                <g id="Trying-new-things" transform="translate(71.000000, 283.000000)">
+                    <g id="Triangle" transform="translate(65.756384, 52.614214) rotate(70.000000) translate(-65.756384, -52.614214) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-27"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-27"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="15.3525391" y="63">Trying new </tspan>
+                        <tspan x="35.640625" y="87">things</tspan>
+                    </text>
+                </g>
+                <g id="Defeating-challenges" transform="translate(74.000000, 138.000000)">
+                    <g id="Triangle" transform="translate(65.756384, 52.614214) rotate(70.000000) translate(-65.756384, -52.614214) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
+                        <use fill="#F58BC9" fill-rule="evenodd" xlink:href="#path-30"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-30"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="18.6015625" y="62">Defeating</tspan>
+                        <tspan x="14.3388672" y="86">challenges</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Ideal-fitness-environment" transform="translate(473.000000, 55.000000)">
+                <g id="Being-real" transform="translate(61.000000, 0.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-33"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="26" y="72">Being real</tspan>
+                    </text>
+                </g>
+                <g id="Providing-ideas-of-fitness-activities" transform="translate(0.000000, 6.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-35"></use>
+                    </g>
+                    <text id="Providing-ideas-of-f" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="53.3056641" y="129">Providing ideas of </tspan>
+                        <tspan x="60.8789062" y="153">fitness activities</tspan>
+                    </text>
+                </g>
+                <g id="Health-&gt;-Size" transform="translate(61.000000, 153.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-38)" xlink:href="#path-37"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-37"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="11" y="71">Health &gt; Size</tspan>
+                    </text>
+                </g>
+                <g id="Geared-to-diff-fitness-levels" transform="translate(0.000000, 171.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-40)" xlink:href="#path-39"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-39"></use>
+                    </g>
+                    <text font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="41.8720703" y="129">Geared to different </tspan>
+                        <tspan x="66.8525391" y="153">fitness levels</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Mindset-to-thrive" transform="translate(944.000000, 55.000000)">
+                <g id="Destroying-assumptions" transform="translate(61.000000, 0.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-42)" xlink:href="#path-41"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-41"></use>
+                    </g>
+                    <text id="Destroying-assumptio" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="15.8798828" y="64">Destroying </tspan>
+                        <tspan x="8.09667969" y="88">assumptions</tspan>
+                    </text>
+                </g>
+                <g id="Confident-no-matter-what-the-scale-says" transform="translate(0.000000, 6.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    </g>
+                    <text id="Confident-no-matter" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="36.0869141" y="127">Confident no matter </tspan>
+                        <tspan x="38.2158203" y="151">what the scale says</tspan>
+                    </text>
+                </g>
+                <g id="Surrounded-by-positivity" transform="translate(61.000000, 153.000000)">
+                    <g id="Triangle" transform="translate(66.182267, 53.171185) rotate(70.000000) translate(-66.182267, -53.171185) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-46)" xlink:href="#path-45"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-45"></use>
+                    </g>
+                    <text id="Surrounded-by-positi" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="2.13964844" y="64">Surrounded by </tspan>
+                        <tspan x="26.7099609" y="88">positivity</tspan>
+                    </text>
+                </g>
+                <g id="I-know-who-I-want-to-be,-I-am-on-my-way-there" transform="translate(0.000000, 171.000000)">
+                    <g id="Triangle" transform="translate(126.599251, 125.407914) rotate(52.000000) translate(-126.599251, -125.407914) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-48)" xlink:href="#path-47"></use>
+                        <use fill="#F75FB8" fill-rule="evenodd" xlink:href="#path-47"></use>
+                    </g>
+                    <text id="On-my-way-to-who-I-w" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" fill="#000000">
+                        <tspan x="39.3232422" y="129">On my way to who I </tspan>
+                        <tspan x="76.9599609" y="153">want to be</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
