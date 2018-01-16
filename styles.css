@@ -145,18 +145,24 @@ nav.navbar {
     font-weight: 25px;
     justify-content: center;
 }
+#project .row .underline {
+    text-decoration: underline;
+}
+#project .row .left {
+    text-align: left;
+}
+#project .row .right {
+    text-align: right;
+}
+#project .row .center {
+    text-align: center;
+}
+#project .row img.back-to-top {
+    max-height: 30px;
+}
 #project .row .content {
     font-size: 20px;
     max-width: 659px;
-    text-align: center;
-}
-#project .row .content .left {
-    text-align: left;
-}
-#project .row .content .right {
-    text-align: right;
-}
-#project .row .content .center {
     text-align: center;
 }
 #project .row .content .quote {
@@ -199,15 +205,17 @@ nav.navbar {
 #project .row .content img {
     max-width: 100%;
 }
-#project .row .content .underline {
-    text-decoration: underline;
-}
 #project .row .content .vertical-middle {
     display: flex;
     vertical-align: middle;
 }
 #project .row .content .no-padding {
     padding: 0;
+}
+#project .row .content .special-quote {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-family: "San Francisco Italic";
 }
 
 /* VenturX */
@@ -290,11 +298,6 @@ nav.navbar {
 .bfg2 a {
     color: #fff;
     text-decoration: underline;
-}
-.bfg4 .special-quote {
-    color: #4a4a4a;
-    font-size: 15px;
-    font-family: "San Francisco Italic";
 }
 .bfg4, .bfg6 {
     background-color: #d8dfe5;
