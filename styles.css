@@ -50,6 +50,10 @@ i {
     max-width: 100%;
 }
 
+a.underline {
+    text-decoration: underline;
+}
+
 /* Header */
 nav.navbar {
     margin-bottom: 40px; 
@@ -90,6 +94,18 @@ nav.navbar {
     width: 100%;
     height: 40px; /* Set the fixed height of the footer here */
     line-height: 40px; /* Vertically center the text there */
+}
+
+/* Landing page */
+#landing .row.project > div.col-md-8 {
+    padding-top: 50px;
+}
+#landing > .project {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#landing {
+    margin-bottom: 60px;
 }
 
 /* Projects page */
@@ -144,9 +160,6 @@ nav.navbar {
     padding: 30px 15px;
     font-weight: 25px;
     justify-content: center;
-}
-#project .row .underline {
-    text-decoration: underline;
 }
 #project .row .left {
     text-align: left;

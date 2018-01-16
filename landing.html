@@ -1,0 +1,78 @@
+<div id="landing" class="container">
+    <div class="row project">
+        <div class="col-md-4">
+            <img src="assets/landing/venturx.png" alt="VenturX logo" />
+        </div>
+        <div class="col-md-8">
+            <h3>VenturX</h3>
+            <p>
+                Analytics tool that provides an overview of a startup's progress.
+                <br />
+                <a class="underline" href="#" data-bind="click: venturxReadMore">read more</a>
+            </p>
+        </div>
+    </div>
+    <hr />
+    <div class="row project">
+        <div class="col-md-4">
+            <img src="assets/landing/vatjss.svg" alt="VATSS logo" />
+        </div>
+        <div class="col-md-8">
+            <h3>Vancouver Transformative Justice Services Society</h3>
+            <p>
+                Non-profit organization focused on transformative justice.
+                <br />
+                <a class="underline" href="#" data-bind="click: vatjssReadMore">read more</a>
+            </p>
+        </div>
+    </div>
+    <hr />
+    <div class="row project">
+        <div class="col-md-4">
+            <img src="assets/landing/bfg.png" alt="Big Fit Girl logo" />
+        </div>
+        <div class="col-md-8">
+            <h3>Big Fit Girl</h3>
+            <p>
+                Weight neutral fitness company for plus-size womn.
+                <br />
+                <a class="underline" href="#" data-bind="click: bfgReadMore">read more</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        function goToProject(projectIndex) {
+            // This is used to navigate back to the landing page when back is pressed.
+            window.history.pushState({ isProject: true }, null);
+
+            $("#body").load("project.html", null, function() {
+                // Manually switch the active carousel item due to a BS bug.
+                $(".carousel-item").each(function(i, elem) {
+                    $(elem).removeClass("active");
+                });
+                $(".carousel-item:eq(" + projectIndex + ")").addClass("active");
+                $(".carousel").carousel(projectIndex);
+
+                window.scrollTo(0, 0);
+            });
+        }
+        // Knockout bindings for this page.
+        function LandingViewModel() {
+            this.venturxReadMore = function() {
+                goToProject(0);
+            };
+            this.vatjssReadMore = function() {
+                goToProject(1);
+            };
+            this.bfgReadMore = function() {
+                goToProject(2);
+            };
+        }
+
+        var landingVM = new LandingViewModel();
+        ko.cleanNode(document.getElementById("landing"));
+        ko.applyBindings(landingVM, document.getElementById("landing"));
+    });
+</script>

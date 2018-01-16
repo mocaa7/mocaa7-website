@@ -1,7 +1,7 @@
 <div id="project">
     <nav aria-label="breadcrumb" role="navigation" class="project-breadcrumbs">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item">Projects</li>
+            <li class="breadcrumb-item"><a href="#" data-bind="click: gotoProjects">Projects</a></li>
             <li class="breadcrumb-item active" aria-current="page" data-bind="text: currentProjectName"></li>
         </ol>
     </nav>
@@ -35,6 +35,11 @@
     $(function() {
         // Knockout bindings for the current project.
         function ProjectViewModel() {
+            this.gotoProjects = function() {
+                $("#body").load("landing.html", null, function() {
+                    window.context = "menu";
+                });
+            };
             this.currentProjectName = ko.observable();
             this.updateProject = function (projectDomElement) {
                 projectDomElement = $(projectDomElement);
@@ -53,5 +58,12 @@
         });
 
         projectVM.updateProject($("#projectSelectionCarousel .carousel-item.active"));
+
+        // Back button goes to project landing page.
+        window.onpopstate = function(event) {
+            if (event.state && event.state.isProject) {
+                $("#body").load("landing.html");
+            }
+        }
     });
 </script>

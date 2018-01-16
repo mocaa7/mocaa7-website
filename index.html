@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" id="header">
         <div class="navbar-brand">
-            <img src="assets/bulb.svg" height="150" alt="Light bulb logo of the website." />
+            <a href="#" data-href-navigation="landing.html" data-href-menuitem="0"><img src="assets/bulb.svg" height="150" alt="Light bulb logo of the website." /></a>
             <div class="title">
                 <h1>Monica Ibrahim</h1>
                 <h2>UX Design.</h2>
@@ -25,13 +25,13 @@
         <div class="navbar-collapse collapse" id="collapsingNavbar">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link menu-underline active" href="#" data-href-navigation="project.html">PROJECTS</a>
+                    <a class="nav-link menu-underline active" href="#" data-href-navigation="landing.html" data-href-menuitem="0">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-underline" href="#" data-href-navigation="about.html">ABOUT</a>
+                    <a class="nav-link menu-underline" href="#" data-href-navigation="about.html" data-href-menuitem="1">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-underline" href="#" data-href-navigation="writing.html">WRITING</a>
+                    <a class="nav-link menu-underline" href="#" data-href-navigation="writing.html" data-href-menuitem="2">WRITING</a>
                 </li>
             </ul>
         </div>
@@ -64,10 +64,12 @@
                 $("#body").load($(this).data("href-navigation"));
                 
                 // Make that link the only active one.
-                $("[data-href-navigation]").each(function() {
+                $("a.nav-link").each(function() {
                     $(this).removeClass("active");
-                })
-                $(this).addClass("active");
+                });
+
+                var activeMenuItem = $(this).data("href-menuitem");
+                $("a.nav-link:eq(" + activeMenuItem + ")").addClass("active");
             });
 
             // Default to navigating to the first nav item.
