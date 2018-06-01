@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="413px" height="238px" viewBox="0 0 413 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="VATJSS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VATJSS-Summary-new-colors" transform="translate(-129.000000, -351.000000)">
+            <g id="Group-4" transform="translate(129.000000, 351.000000)">
+                <g id="Role-and-project" transform="translate(19.000000, 0.000000)">
+                    <rect id="Rectangle-18" fill="#476E7C" x="0" y="0" width="394" height="238" rx="8"></rect>
+                    <g id="Group-3" transform="translate(30.000000, 25.000000)" fill="#EAEAEA">
+                        <text id="UX-design-&amp;-Content" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal">
+                            <tspan x="0" y="54">UX design &amp; Content Strategy</tspan>
+                        </text>
+                        <text id="Role" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold">
+                            <tspan x="0" y="24">Role</tspan>
+                        </text>
+                        <text id="Redesign-the-the-Van" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal">
+                            <tspan x="0" y="135">Redesign the the Vancouver Aboriginal </tspan>
+                            <tspan x="0" y="159">Transformative Justice Services Society </tspan>
+                            <tspan x="0" y="183">(VATJSS) website</tspan>
+                        </text>
+                        <text id="Project" font-family="SFProDisplay-Bold, SF Pro Display" font-size="25" font-weight="bold">
+                            <tspan x="0" y="105">Project</tspan>
+                        </text>
+                    </g>
+                </g>
+                <rect id="Rectangle-30" fill="#EFF7FF" x="0" y="24" width="19" height="190"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

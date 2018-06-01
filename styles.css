@@ -50,6 +50,10 @@ i {
     max-width: 100%;
 }
 
+#landing .col-md-4 img {
+    max-height: 250px;
+}
+
 .left {
     text-align: left;
 }
@@ -286,14 +290,14 @@ nav.navbar {
 /* VATJSS */
 
 .vatjss2 {
-    background-color: #913029;
-    color: #fff;
+    background-color: #7F1E1C;
+    color: #EAEAEA;
 }
 .vatjss2 p:last-child {
-    color: #a6cfff;
+    color: #BBD7E0;
 }
 .vatjss2 p:last-child a {
-    color: #a6cfff;
+    color: #BBD7E0;
     text-decoration: underline;
 }
 .vatjss4, .vatjss6 {
