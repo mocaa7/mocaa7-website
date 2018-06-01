@@ -161,6 +161,7 @@ nav.navbar {
 }
 .project-overview>img, .project-overview>a {
     margin: 0 1%;
+    max-height: 235px;
     max-width: 40%;
 }
 .project-overview>a>img {
@@ -244,7 +245,6 @@ nav.navbar {
 }
 .venturx2 p:last-child {
     color: #4a90e2;
-    font-size: 25px;
 }
 .venturx2 p:last-child a {
     color: #4a90e2;
