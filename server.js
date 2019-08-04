@@ -10,5 +10,5 @@ const server = new StaticServer({
 });
 
 server.start(function() {
-    console.log('Server listening to ' + server.port);
+    console.log('Server listening to http://localhost:' + server.port);
 });
