@@ -1,4 +1,3 @@
-
 import express from 'express';
 
 /** Default port used to start web application locally. */
