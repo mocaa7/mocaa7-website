@@ -2,7 +2,7 @@
     "name": "mocaa7-website",
     "version": "0.0.1",
     "private": true,
-    "author": "pmansour",
+    "author": "mocaa7",
     "scripts": {
         "tsc": "tsc",
         "start": "tsc && node index.js"

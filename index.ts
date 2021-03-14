@@ -4,7 +4,7 @@ import express from 'express';
 const DEFAULT_PORT = 8080;
 
 const app = express();
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 const port = process.env.PORT || DEFAULT_PORT;
 app.listen(port);
