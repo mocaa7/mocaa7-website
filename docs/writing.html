@@ -3,7 +3,7 @@
         <h3 class="article-date" data-bind="text: date"></h3>
         <h2 class="article-title" data-bind="text: title"></h2>
         <p class="article-blurb" data-bind="html: blurb"></p>
-        <img class="article-img" data-bind="attr: { 'src': image }" />
+        <img class="article-img" data-bind="attr: { 'src': image }" width=700/>
     </div>
     <hr />
 </div>
@@ -12,16 +12,22 @@
     $(function() {
         function ArticlesViewModel() {
             this.articles = [{
+                    date: "September 2020",
+                    title: "Khoury College of Computer Science, NEU",
+                    blurb: "About my background and why I chose to switch to Computer Science.<br/>Check it out <a href=\"https://www.khoury.northeastern.edu/student_stories/monica/\" target=\"_blank\">on the Northeastern Website</a>.",
+                    image: "assets/NEU.jpg"
+                },
+                {
                     date: "November 6th, 2017",
                     title: "My Storyboards",
-                    blurb: "My storyboards are an ongoing process. I love making them. It was a hidden hobby and talent that I had never discovered until starting the UX course I took.<br/><br/>Check them out on <a href=\"https://medium.com/@monicaibrahim/storyboards-5a2581cab0f6\" target=\"_blank\">this medium post</a>.",
+                    blurb: "My storyboards are an ongoing process. I love making them. It was a hidden hobby and talent that I had never discovered until starting the UX course I took.<br/>Check them out on <a href=\"https://medium.com/@monicaibrahim/storyboards-5a2581cab0f6\" target=\"_blank\">this medium post</a>.",
                     image: "assets/storyboards.png"
                 }, {
                     date: "September 18th, 2017",
                     title: "UX Spotlight",
-                    blurb: "I had a chance to share my experiences and thoughts on UX design and RED Academy (the institution where I studied UX design).<br/><br/>Check it out <a href=\"https://redacademy.com/ux-student-spotlight-brian-monica-and-yayin/\" target=\"_blank\">on the RED Academy site</a>.",
+                    blurb: "I had a chance to share my experiences and thoughts on UX design and RED Academy (the institution where I studied UX design).<br/>Check it out <a href=\"https://redacademy.com/ux-student-spotlight-brian-monica-and-yayin/\" target=\"_blank\">on the RED Academy site</a>.",
                     image: "assets/spotlight.png"
-                }
+                },
             ];
         }
 
