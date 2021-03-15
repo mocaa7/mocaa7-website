@@ -40,6 +40,28 @@
             </p>
         </div>
     </div>
+    <div class="row project">
+        <div class="col-md-4">
+            <!-- <img src="assets/landing/Restaurant-App.png" alt="Restaurant App" width=200 style="display: block; margin-left: auto; margin-right: auto"/> -->
+        </div>
+        <div class="col-md-8">
+            <h3>Career Search Forum (Web-App)</h3>
+            <p>
+                <ul>
+                    <li>
+                        Used Reddit API to scrape reddit for relevant posts.<br>
+                    </li>
+                    <li>
+                        Web-App is hosted on <a class="underline" href="https://afternoon-sands-94723.herokuapp.com/" target="_blank">heroku</a>.<br>
+                    </li>
+                    <li>
+                        Here's a <a class="underline" href="#" data-bind="click: restaurantAppReadMore">high-level description</a> of the restaurant app.
+                    </li>
+                </ul>
+                
+            </p>
+        </div>
+    </div>
     <h2>Design Projects</h2>
     <div class="row project">
         <div class="col-md-4">
@@ -111,6 +133,9 @@
             this.bfgReadMore = function() {
                 goToProject(2);
             };
+            this.restaurantAppReadMore = function() {
+                goToProject(3);
+            }
         }
 
         var landingVM = new LandingViewModel();

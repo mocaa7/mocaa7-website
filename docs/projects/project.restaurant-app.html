@@ -1,0 +1,89 @@
+<div class="row">
+  <div class="content">
+    <h2>Problem to solve</h2>
+    <p>
+      Finding a specific path to a career using online resources can be overwhelming and difficult to filter through. There are tons of resources to choose from and often contain advertisements rather than personal experience. Our website can transform the job search experience with community sourced advice that can answer user specific questions.
+    </p>
+    <p>
+      Recruiters can struggle to find applicants that are actually a good fit for the job position. Recruiters need to filter through tons of irrelevant applications to find a good match. As talent sourcers, recruiters can find potential candidates faster by targeting candidates that have interest in the specific field or job.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="content">
+    <h2>Types of users & goals to achieve</h2>
+    <p><b>Job Seeker</b>: users that are seeking guidance and new job opportunities
+      <br />
+      (1) Get guidance on how they can land their desired career given their current situation (ex. High-school student seeking a path to becoming front-end developer)
+      <br />
+      (2) Get contacted for jobs in areas that they are specifically interested in
+    </p>
+    <br />
+    <p>
+      <b>Recruiter</b>: users that are seeking talent for job openings
+      <br />
+      (1) Targeted talent sourcing - instead of getting applicants that are applying to a wide range of jobs (whether they are interested or fit), recruiters can find potential job candidates that are more likely to be a good fit
+      <br />
+      (2) Increase exposure for hiring events, workshops, or any other company news/events
+    </p>
+    <br/>
+    <p>
+      <b>Moderators</b>: moderate posts and comments on the web application
+      <br />
+      (1) Delete irrelevant posts as advertisers may use our platform as a method to promote their products
+      <br />
+      (2) Select highly voted posts for homepage display so that users who may have missed a discussion post can quickly select and navigate to that post. 
+      <br />
+      (3) Open discussion posts weekly and tag by community interests to increase user engagement 
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="content">
+    <h2>Overall Strategy to Solve the Problem</h2>
+    Two main tabs containing three types of posts:
+    <p>
+      <h5>
+        (1) Posts on career related advice & questions
+      </h5>
+      <ol>
+        <li>
+          Other Users (both job seekers and recruiters) can answer on how to get on a certain path
+        </li>
+        <li>
+          Ex. how to get into SWE? Example answer: go to this school, interview practice, etc.
+        </li>
+      </ol>
+    </p>
+    <br/>
+    <p>
+      <h5>
+        (2) News & Announcements for Recruiters to post (ex. Publicize upcoming events, talks or any other news)
+      </h5>
+    </p>
+    <br/>
+    <p>
+      <h5>
+        (3) “Talent” posts - instead of a job post, the user can create a post about the job they are looking for
+      </h5>
+      <ol>
+        <li>
+          Recruiters looking for talent can message you directly about an open job
+        </li>
+        <li>
+          Find available jobs via “talent” posts (ex. Seeker posts that they want a front-end web job, and recruiter can personally message them)
+        </li>
+      </ol>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="content">
+    <h2>Web API</h2>
+    We will be using a public API provided by Reddit.<br>
+    https://www.reddit.com/r/${subReddit}/search.json?q=${query}&restrict_sr=1&raw_json=1<br>
+    <p>
+      In order to find query results that are suitable for our application we will be visiting a subsection of reddit (a Subreddit) as shown above. We used “Career” as the subReddit to pull Career related posts. The query will be filled in when the user submits the query through the homepage. 
+    </p>
+  </div>
+</div>
