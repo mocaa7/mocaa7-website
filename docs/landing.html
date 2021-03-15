@@ -1,6 +1,6 @@
 <div id="landing" class="container">
     <h2>CS Projects</h2>
-    <p> Read through my <a class="underline" href="https://www.linkedin.com/in/monicaibr/">Linkedin </a> and <a class="underline" href="resume.pdf" target="_blank">resume</a> for more info.
+    <p> Read through my <a class="underline" href="https://www.linkedin.com/in/monicaibr/">Linkedin </a> and <a class="underline" href="resume.pdf" target="_blank">resume</a> for more projects & info.
     </p>
     <div class="row project">
         <div class="col-md-4">
@@ -23,7 +23,7 @@
     </div>
     <div class="row project">
         <div class="col-md-4">
-            <img src="assets/landing/Restaurant-App.png" alt="Restaurant App" width=200 style="display: block; margin-left: auto; margin-right: auto"/>
+            <img src="assets/landing/Restaurant-App.png" alt="Restaurant App" width=150 style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px"/>
         </div>
         <div class="col-md-8">
             <h3>Restaurant Success Prediction Project</h3>
@@ -42,7 +42,7 @@
     </div>
     <div class="row project">
         <div class="col-md-4">
-            <!-- <img src="assets/landing/Restaurant-App.png" alt="Restaurant App" width=200 style="display: block; margin-left: auto; margin-right: auto"/> -->
+            <img src="assets/landing/search.png" alt="Job App" width=100 style="display: block; margin-left: auto; margin-right: auto; margin-top: 65px"/>
         </div>
         <div class="col-md-8">
             <h3>Career Search Forum (Web-App)</h3>
@@ -54,11 +54,28 @@
                     <li>
                         Web-App is hosted on <a class="underline" href="https://afternoon-sands-94723.herokuapp.com/" target="_blank">heroku</a>.<br>
                     </li>
+                </ul>
+                Here's a <a class="underline" href="#" data-bind="click: jobAppReadMore">high-level description</a> of the career search forum app.
+            </p>
+        </div>
+    </div>
+    <div class="row project">
+        <div class="col-md-4">
+            <img src="assets/landing/map-reduce.png" alt="Job App" height=80 style="margin-top: 130px"/>
+            <!-- style="display: block; margin-left: auto; margin-right: auto"/> -->
+        </div>
+        <div class="col-md-8">
+            <h3>K-Means Clustering: Movie Directors (from the IMDb movie dataset)</h3>
+            <p>
+                <ul>
                     <li>
-                        Here's a <a class="underline" href="#" data-bind="click: restaurantAppReadMore">high-level description</a> of the restaurant app.
+                        Built a MapReduce job to group movie directors by some chosen traits and the ratings received for their movies.
+                    </li>
+                    <li>
+                        Preprocessed the raw dataset to flatten multi-dimensional vectors into single representative numbers.
                     </li>
                 </ul>
-                
+                Will send Map-Reduce program and written project design upon request.</br>
             </p>
         </div>
     </div>
@@ -133,7 +150,7 @@
             this.bfgReadMore = function() {
                 goToProject(2);
             };
-            this.restaurantAppReadMore = function() {
+            this.jobAppReadMore = function() {
                 goToProject(3);
             }
         }
